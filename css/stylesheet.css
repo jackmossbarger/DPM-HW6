@@ -1,1 +1,29 @@
-body {background-color: green; }
+wrapper {
+    background-color: #4FE6A1;
+}
+
+header {background-color: #4FE6A1; border: 2px solid black;padding: 5px ;margin:15PX ;
+text-align: center;
+
+
+}
+a{ text-decoration: none;
+font-size:  1.1rem;
+}
+
+body {background-color: whitesmoke; }
+nav {background-color: #4FE6A1;margin: 10px;padding-bottom: 25px;
+
+
+}
+main {background-color: whitesmoke; }
+footer {background-color: #4FE6A1;padding: 25px; text-align: center; }
+
+a:link{ color: red;}
+a:visited{color:darkgreen;}
+a:hover{color: black;}
+a:active{color: brown;}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
