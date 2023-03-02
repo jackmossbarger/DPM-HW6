@@ -1,29 +1,145 @@
 wrapper {
-    background-color: #4FE6A1;
+    background-color: darkgreen;
 }
 
-header {background-color: #4FE6A1; border: 2px solid black;padding: 5px ;margin:50PX ;
-text-align: center;
 
-
-}
 a{ text-decoration: none;
 font-size:  1.1rem;
 }
 
-body {background-color: whitesmoke; }
-nav {background-color: #4FE6A1;margin: 10px;padding-bottom: 25px;
+body {background-color: #7F9183; }
 
 
-}
-main {background-color: whitesmoke; }
-footer {background-color: #4FE6A1;padding: 25px; text-align: center; }
 
-a:link{ color: red;}
-a:visited{color:darkgreen;}
-a:hover{color: black;}
-a:active{color: brown;}
+
+main {background-color: #7F9183; }
+footer {background-color: #DDD5D0;padding: 10px; text-align: center; }
+
+a:link{ color: black;}
+a:visited{color:#B8B8AA;}
+a:hover{color: white;}
+a:active{color: #B8B8AA;}
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+nav {
+    background-color: #333;
+    height: 60px;
   }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #586F6B;
+    padding: 20px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 250px;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #DDD5D0;
+  }
+  
+  th:first-child, td:first-child {
+    padding-left: 20px;
+  }
+  
+  th:last-child, td:last-child {
+    padding-right: 20px;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .column:first-child {
+    max-width: 50%;
+  }
+  
+  .column:last-child {
+    position: relative;
+  }
+  
+  .new-class {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 40px; /* Add some margin to the bottom of the image */
+    margin-top: 70px;
+    background-color: #7F9183;
+
+  }
+
+  .free-positioned-image {
+    position: absolute;
+    background-color: #7F9183;
+
+  }
+  p {
+    background-color: #7F9183;
+  }
+  
+  
+  
+  
+  
