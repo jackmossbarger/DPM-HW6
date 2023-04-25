@@ -1,5 +1,5 @@
 wrapper {
-    background-color: darkgreen;
+    background-color: oldlace;
 }
 
 
@@ -26,6 +26,7 @@ tr:nth-child(even) {
 nav {
     background-color: #333;
     height: 60px;
+    color: white;
   }
   
   nav ul {
@@ -56,6 +57,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #586F6B;
+    color: white;
     padding: 20px;
   }
   
